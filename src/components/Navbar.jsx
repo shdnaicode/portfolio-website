@@ -1,7 +1,8 @@
 function NavBar() {
   return (
     <>
-      <div></div>
+      <div className="">
+      </div>
     </>
   );
 }

@@ -1,7 +1,13 @@
+import { Button } from "../components/ui/button"
+
 function Home() {
   return (
     <>
-      <div></div>
+    <div>
+      <Button>
+        Dude WTFFF
+      </Button>
+    </div>
     </>
   );
 }
