@@ -1,4 +1,4 @@
-# Shindanai Sudprasert Portfolio
+# Portfolio
 
 ## Get Started
 
@@ -8,6 +8,4 @@
 
 ## Preview
 
-## Author
-
-
+## License
