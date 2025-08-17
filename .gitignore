@@ -1,4 +1,6 @@
+# ─────────────────────────────
 # Logs
+# ─────────────────────────────
 logs
 *.log
 npm-debug.log*
@@ -7,23 +9,53 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# ─────────────────────────────
+# Dependency directories
+# ─────────────────────────────
+node_modules/
 
-# Enviromental directories and files
+# ─────────────────────────────
+# Build output
+# ─────────────────────────────
+dist/
+dist-ssr/
 
-.env 
-.env.local
+# ─────────────────────────────
+# Environment variables
+# (keep secrets safe)
+# ─────────────────────────────
+.env
+.env.*.local
 
-# Editor directories and files
+# ─────────────────────────────
+# Editor & OS files
+# ─────────────────────────────
 .vscode/*
 !.vscode/extensions.json
-.idea
+.idea/
 .DS_Store
+Thumbs.db
+
+# ─────────────────────────────
+# Project workspace files
+# ─────────────────────────────
 *.suo
 *.ntvs*
 *.njsproj
-*.slng
+*.sln
 *.sw?
+
+# ─────────────────────────────
+# Package manager caches
+# ─────────────────────────────
+.npm/
+.yarn/
+.pnp.*
+
+# ─────────────────────────────
+# Optional: lock files 
+# (uncomment if you don’t want to commit them)
+# ─────────────────────────────
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
