@@ -31,14 +31,14 @@ function NavBar() {
         <Button asChild className="text-main-foreground border-border shadow-shadow rounded-base bg-main font-base h-[60px] w-[60px] flex items-center justify-center border-2"
         >
           <a href="https://github.com/shdnaicode" target="_blank" rel="noopener noreferrer">
-            <img src="/github.svg" alt="Github" className="w-8 h-8" />
+            <img src="/icons/github.svg" alt="Github" className="w-8 h-8" />
           </a>
         </Button>
 
         <Button asChild className="text-main-foreground border-border shadow-shadow rounded-base bg-main font-base h-[60px] w-[60px] flex items-center justify-center border-2"
         >
           <a href="mailto:smartsoodprasert69@gmail.com" target="_blank" rel="noopener noreferrer">
-            <img src="/gmail.svg" alt="Gmail" className="w-8 h-8" />
+            <img src="/icons/gmail.svg" alt="Gmail" className="w-8 h-8" />
           </a>
 
         </Button>
