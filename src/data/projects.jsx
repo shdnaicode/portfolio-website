@@ -28,6 +28,5 @@ function projectData() {
 }
 
 
-export default projectData
 
 {/*This page required refactoring*/}
