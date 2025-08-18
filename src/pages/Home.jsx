@@ -1,18 +1,43 @@
+import { Button } from "@/components/ui/button";
+
+
 function Home() {
   return (
-    <div className="font-base mt-[15%] pl-[25%]">
-      <h2 className="mb-4 font-normal text-3xl">Hello!</h2>
-      <h1 className="mb-10 text-4xl">I'm Shindanai Sudprasert</h1>
-      <p className="font-normal text-xl max-w-[50%] leading-relaxed">
-        I'm a student developer based in Thailand, aspiring to be a software
-        engineer specialised in full-stack development. I love to develop a
-        website, create a projects, and writing code. I'm passionate about
-        technology, computer, and digital world.
-      </p>
+    <div className="z-50 flex justify-center items-center h-screen pb-[75px]">
+      <div className="text-main-foreground border-border shadow-shadow rounded-base bg-main font-base h-[50vh] flex w-[50vw] border-2 px-15 text-sm sm:text-base">
+        <div className="mt-15 flex-1">
+          <h1 className="text-3xl">Shindanai Sudprasert</h1>
+          <h3 className="text-lg font-medium pt-2">Student Developer</h3>
+          <p className="text-base font-medium pt-6 max-w-lg leading-relaxed">
+            "A student developer based in Thailand, aspiring to be a software
+            engineer specialised in full-stack development..."
+          </p>
+          <div className="mt-10 flex flex-col">
+            <h3 className="text-lg">
+              Skills
+            </h3>
+            <ul>
+              <li>
+                <img src="/icons/react.svg" className="w-8 h-8" />
+              </li>
+              <li>
+                 <img src=""/>
+              </li>
+              <li>
+                 <img src=""/>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="mt-15 border-2 border-black rounded-base bg-white font-base h-[15vh] w-[15vh] shadow-lg">
+          <img
+            className="w-full h-full object-cover overflow-hidden"
+          />
+        </div>
+      </div>
     </div>
   );
 }
-
-console.log("Home page is rendered, no error detected");
 
 export default Home;
