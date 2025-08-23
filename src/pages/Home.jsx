@@ -1,43 +1,60 @@
-import { Button } from "@/components/ui/button";
-
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 
 function Home() {
   return (
-    <div className="z-50 flex justify-center items-center h-screen pb-[75px]">
-      <div className="text-main-foreground border-border shadow-shadow rounded-base bg-main font-base h-[50vh] flex w-[50vw] border-2 px-15 text-sm sm:text-base">
-        <div className="mt-15 flex-1">
-          <h1 className="text-3xl">Shindanai Sudprasert</h1>
-          <h3 className="text-lg font-medium pt-2">Student Developer</h3>
-          <p className="text-base font-medium pt-6 max-w-lg leading-relaxed">
-            "A student developer based in Thailand, aspiring to be a software
-            engineer specialised in full-stack development..."
+    <div>
+      <div className="flex justify-center mt-[33vh] mr-[50vh]">
+        <div className="items-left text-left">
+          <h1 className="text-5xl">Shindanai Sudprasert</h1>
+          <h3 className="text-2xl font-medium pt-3">Student Developer</h3>
+          <p className="text-xl font-normal pt-6 max-w-2xl leading-relaxed">
+            Based in Thailand, I'm a student developer aspiring to be a software engineer specialized in full-stack development. I'm currently build a project to sharpen my skills, turning my ideas into reality by coding and technology.
           </p>
-          <div className="mt-10 flex flex-col">
-            <h3 className="text-lg">
-              Skills
-            </h3>
-            <ul>
-              <li>
-                <img src="/icons/react.svg" className="w-8 h-8" />
-              </li>
-              <li>
-                 <img src=""/>
-              </li>
-              <li>
-                 <img src=""/>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <div className="mt-15 border-2 border-black rounded-base bg-white font-base h-[15vh] w-[15vh] shadow-lg">
-          <img
-            className="w-full h-full object-cover overflow-hidden"
-          />
         </div>
       </div>
-    </div>
+      <div className="flex flex-col z-50 justify-center items-center mb-5">
+        <Accordion type="single" collapsible className="w-sm">
+          <AccordionItem value="item-1">
+            <AccordionTrigger>Placeholder</AccordionTrigger>
+            <AccordionContent>
+              Web Development
+            </AccordionContent>
+          </AccordionItem>
+        </Accordion>
+        <Accordion type="single" collapsible className="w-sm">
+          <AccordionItem value="item-1">
+            <AccordionTrigger>Placeholder</AccordionTrigger>
+            <AccordionContent>
+              Web Development
+            </AccordionContent>
+          </AccordionItem>
+        </Accordion>
+        <Accordion type="single" collapsible className="w-sm">
+          <AccordionItem value="item-1">
+            <AccordionTrigger>Placeholder</AccordionTrigger>
+            <AccordionContent>
+              Web Development
+            </AccordionContent>
+          </AccordionItem>
+        </Accordion>
+        <Accordion type="single" collapsible className="w-sm">
+          <AccordionItem value="item-1">
+            <AccordionTrigger>Placeholder</AccordionTrigger>
+            <AccordionContent>
+              Web Development
+            </AccordionContent>
+          </AccordionItem>
+        </Accordion>
+      </div>
+    </div>  
   );
 }
+
+
 
 export default Home;
