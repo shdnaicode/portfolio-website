@@ -47,6 +47,5 @@ function NavBar() {
   );
 }
 
-console.log("Navbar is rendered, no error detected.")
 
 export default NavBar;
