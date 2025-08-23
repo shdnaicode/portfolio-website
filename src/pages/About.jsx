@@ -5,6 +5,5 @@ function About() {
   )
 }
 
-console.log("About page is rendered, no error detected")
 
 export default About;
