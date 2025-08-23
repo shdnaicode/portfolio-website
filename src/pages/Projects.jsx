@@ -6,6 +6,5 @@ function Projects() {
   )
 }
 
-console.log("Projects page is rendered, no error detected")
 
 export default Projects;
